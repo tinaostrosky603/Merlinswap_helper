@@ -1,0 +1,23 @@
+{
+  "name": "Merlinswap_helper",
+  "version": "1.0.0",
+  "description": "Merlinswap helper",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack --mode production --watch --progress",
+    "build": "npx webpack --mode production --progress"
+  },
+  "keywords": [
+    "Merlinswap"
+  ],
+  "author": "tinaostrosky603@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "uniswap_helper": "^1.1.0"
+  },
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
